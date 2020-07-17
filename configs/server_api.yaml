@@ -1,0 +1,16 @@
+version: 1.0
+
+# Use GPU -> gpuid: 0 
+# Use CPU -> gpuid: -1
+
+input:
+  image: 'imgs/LP_15A56744_lowRes.jpg'
+  video: ''
+  camera: ''
+
+GAN:
+  path: 'models/GAN/'
+  name_model: 'my_final_bike_GAN_model'
+RRDBNet:
+  path: 'models/RRDBNet/'
+  name_model: 'my_final_bike_GAN_model'
